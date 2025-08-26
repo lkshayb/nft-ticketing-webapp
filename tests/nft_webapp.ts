@@ -1,12 +1,12 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
-import { BackendPrograms } from "../target/types/backend_programs";
+import { NftWebapp } from "../target/types/nft_webapp";
 
-describe("backend_programs", () => {
+describe("nft_webapp", () => {
   // Configure the client to use the local cluster.
   anchor.setProvider(anchor.AnchorProvider.env());
 
-  const program = anchor.workspace.BackendPrograms as Program<BackendPrograms>;
+  const program = anchor.workspace.NftWebapp as Program<NftWebapp>;
 
   it("Is initialized!", async () => {
     // Add your test here.

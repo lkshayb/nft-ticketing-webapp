@@ -5,7 +5,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-backend_programs = "9imnRE1qA6BhgrBdcWMRRSgSeQAcb5L1jyc6gJK6ciWN"
+nft_webapp = "23pYtn2tDzjCNe97eZm3Aerp8FDdXM9qupPxua6ASwvA"
 
 [registry]
 url = "https://api.apr.dev"
